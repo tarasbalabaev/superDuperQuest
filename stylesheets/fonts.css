@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Truin';
+  src:
+    url('../fonts/Truin-Regular.woff2') format('woff2'),
+    url('../fonts/Truin-Regular.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Truin';
+  src:
+    url('../fonts/Truin-Ruin.woff2') format('woff2'),
+    url('../fonts/Truin-Ruin.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
