@@ -9,5 +9,40 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: 'Truin', system-ui, sans-serif;
+  overflow: hidden;
+  background-color: black;
+}
+
+#display {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/Standart.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 15vw;
+  padding-left: 16vw;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 10vw;
+  color: white;
   font-style: italic;
+}
+
+h2 {
+  font-size: 3vw;
+  color: white;
+  text-align: center;
+  width: 10vw;
+  animation: light 2s ease-in forwards infinite;
 }
